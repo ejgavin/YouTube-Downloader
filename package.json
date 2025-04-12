@@ -1,0 +1,22 @@
+{
+  "name": "youtube-downloader",
+  "version": "1.0.0",
+  "description": "YouTube Downloader & Converter - Run server and open client easily",
+  "main": "index.js",
+  "scripts": {
+    "start-server": "cd server && npm install && npm start",
+    "open-client": "open client/index.html",
+    "start": "npm run start-server"
+  },
+  "keywords": [
+    "youtube",
+    "downloader",
+    "converter",
+    "mp3",
+    "mp4"
+  ],
+  "author": "original author: barclayd",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}
